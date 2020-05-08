@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './scss/App.scss';
+import MoviePicker from './components/MoviePicker';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <MoviePicker name="Nicki" />
         <a
           className="App-link"
           href="https://reactjs.org"
