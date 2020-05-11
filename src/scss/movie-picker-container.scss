@@ -1,0 +1,63 @@
+.movie-picker-container {
+  background: black;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  left: calc(50% - 199px);
+  width: 398px;
+  border: 5px ;
+  box-shadow: 0 0 50px 50px;
+  overflow: auto;
+
+  .movie-picker-relative-container {
+    height: 833px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .movie-poster {
+      width: 290px;
+      margin-top: 90px;
+    }
+
+    .loading-video {
+      display: none;
+      position: absolute;
+      height: 100%;
+      margin-top: 50px;
+
+      &.show {
+        display: block;
+      }
+    }
+
+    .television-overlay {
+      position: absolute;
+      top: calc(50% - 380px);
+      left: 0;
+      width: 100%;
+      height:100%;
+      background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+    }
+
+    .press-me-btn {
+      position: absolute;
+      bottom: 30px;
+      left: 50px;
+      height: 70px;
+      width: 75px;
+      border-radius: 100%;
+      cursor: pointer;
+      background: transparent;
+      border: none;
+      
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

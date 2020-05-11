@@ -1,26 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+import BackgroundVideo from './assets/videos/horror_background.mp4';
 import './scss/App.scss';
-import MoviePicker from './components/MoviePicker';
+import MoviePickerContainer from './components/MoviePickerContainer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <MoviePicker name="Nicki" />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <video className='background-video' autoPlay loop muted>
+        <source src={BackgroundVideo} type='video/mp4' />
+      </video>
+      <MoviePickerContainer />
     </div>
   );
 }
