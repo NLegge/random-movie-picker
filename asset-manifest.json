@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/random-movie-picker/static/css/main.5f361e03.chunk.css",
-    "main.js": "/random-movie-picker/static/js/main.6d6872fe.chunk.js",
-    "main.js.map": "/random-movie-picker/static/js/main.6d6872fe.chunk.js.map",
+    "main.css": "/random-movie-picker/static/css/main.6c7084a2.chunk.css",
+    "main.js": "/random-movie-picker/static/js/main.d3054233.chunk.js",
+    "main.js.map": "/random-movie-picker/static/js/main.d3054233.chunk.js.map",
     "runtime-main.js": "/random-movie-picker/static/js/runtime-main.f755ed74.js",
     "runtime-main.js.map": "/random-movie-picker/static/js/runtime-main.f755ed74.js.map",
-    "static/js/2.7a2ec876.chunk.js": "/random-movie-picker/static/js/2.7a2ec876.chunk.js",
-    "static/js/2.7a2ec876.chunk.js.map": "/random-movie-picker/static/js/2.7a2ec876.chunk.js.map",
+    "static/js/2.14889cdf.chunk.js": "/random-movie-picker/static/js/2.14889cdf.chunk.js",
+    "static/js/2.14889cdf.chunk.js.map": "/random-movie-picker/static/js/2.14889cdf.chunk.js.map",
     "index.html": "/random-movie-picker/index.html",
-    "precache-manifest.a462d19400bfeeee4e4892ffaf08c422.js": "/random-movie-picker/precache-manifest.a462d19400bfeeee4e4892ffaf08c422.js",
+    "precache-manifest.62a1986ddc82ce0a05018398c1441418.js": "/random-movie-picker/precache-manifest.62a1986ddc82ce0a05018398c1441418.js",
     "service-worker.js": "/random-movie-picker/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/random-movie-picker/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.7a2ec876.chunk.js.LICENSE.txt": "/random-movie-picker/static/js/2.7a2ec876.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/random-movie-picker/static/media/logo.5d5d9eef.svg"
+    "static/css/main.6c7084a2.chunk.css.map": "/random-movie-picker/static/css/main.6c7084a2.chunk.css.map",
+    "static/js/2.14889cdf.chunk.js.LICENSE.txt": "/random-movie-picker/static/js/2.14889cdf.chunk.js.LICENSE.txt",
+    "static/media/Loading_Video_Horror.mp4": "/random-movie-picker/static/media/Loading_Video_Horror.a679cd21.mp4",
+    "static/media/horror_background.mp4": "/random-movie-picker/static/media/horror_background.a7454dca.mp4",
+    "static/media/overlay-1.png": "/random-movie-picker/static/media/overlay-1.7fb7f2a2.png",
+    "static/media/overlay-2.png": "/random-movie-picker/static/media/overlay-2.a9638490.png",
+    "static/media/overlay-3.png": "/random-movie-picker/static/media/overlay-3.f7dcc705.png",
+    "static/media/overlay-4.png": "/random-movie-picker/static/media/overlay-4.fd5dd825.png",
+    "static/media/overlay-5.png": "/random-movie-picker/static/media/overlay-5.cb1154f0.png",
+    "static/media/overlay-6.png": "/random-movie-picker/static/media/overlay-6.83bde4d5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f755ed74.js",
-    "static/js/2.7a2ec876.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.6d6872fe.chunk.js"
+    "static/js/2.14889cdf.chunk.js",
+    "static/css/main.6c7084a2.chunk.css",
+    "static/js/main.d3054233.chunk.js"
   ]
 }
