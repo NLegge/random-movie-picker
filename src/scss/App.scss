@@ -1,6 +1,7 @@
 @import './movie-picker-container.scss';
 
 .App {
+  min-height: 100vh;
   overflow: auto;
 
   .background-video {

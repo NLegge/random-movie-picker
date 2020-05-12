@@ -65,6 +65,7 @@ const handlePressMe = () => {
           <source src={LoadingVideo} type='video/mp4' />
         </video>
         {movieInfo && movieInfo.Poster !== 'N/A' && <img className="movie-poster" src={movieInfo.Poster} alt="movie-poster" />}
+        {movieInfo && movieInfo.Poster === 'N/A' && <div className="movie-poster">{movieInfo.Title}</div>}
         {movieInfo && (
           <div className="movie-info" role="presentation">
             <p>Title: {movieInfo.Title}</p>

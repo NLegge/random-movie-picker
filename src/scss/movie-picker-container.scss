@@ -1,6 +1,6 @@
 .movie-picker-container {
   background: black;
-  position: fixed;
+  position: absolute;
   top: 0;
   height: 100%;
   left: calc(50% - 199px);
@@ -10,35 +10,46 @@
   overflow: auto;
 
   .movie-picker-relative-container {
-    height: 833px;
+    height: 860px;
     width: 100%;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
 
     .movie-poster {
       width: 290px;
       margin-top: 90px;
     }
 
+    div.movie-poster {
+      letter-spacing: 1px;
+      font-family: 'VT323', monospace;
+      font-size: 48px;
+      color: #cc2c2e;
+      text-align: center;
+      height: 430px;
+      display: flex;
+      align-items: center;
+    }
+
     .movie-info {
       color: #cc2c2e;
       font-size: 16px;
       letter-spacing: 1px;
-      margin-left: auto;
-      margin-right: 60px;
       height: 250px;
       width: 150px;
       font-family: 'VT323', monospace;
       overflow: hidden;
+      margin: 0px 60px 20px auto;
     }
 
     .loading-video {
       display: none;
       position: absolute;
-      height: 100%;
+      height: 823px;
       margin-top: 50px;
 
       &.show {
@@ -51,7 +62,7 @@
       top: calc(50% - 380px);
       left: 0;
       width: 100%;
-      height:100%;
+      height: 823px;
       background-size: cover;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -59,7 +70,7 @@
 
     .press-me-btn {
       position: absolute;
-      bottom: 30px;
+      bottom: 50px;
       left: 50px;
       height: 70px;
       width: 75px;

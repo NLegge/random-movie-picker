@@ -13,7 +13,7 @@ export const movies = [
   'Ghostbusters',
   'Commando',
   'Scary Movie 2',
-  'Leon The Professional',
+  'Leon: The Professional',
   'Starship Troopers',
   'They Live',
   'Way of the Gun',
