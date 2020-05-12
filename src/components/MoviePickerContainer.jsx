@@ -23,7 +23,7 @@ const handlePressMe = () => {
   const movie = movies[Math.floor(Math.random() * movies.length)];
   setShowVideo(true);
   videoRef.current.play();
-  axios.get(`http://www.omdbapi.com/?apiKey=1183a20f&t=${movie}`)
+  axios.get(`https://www.omdbapi.com/?apiKey=1183a20f&t=${movie}`)
     .then(res => {
       setMovieInfo(res.data);
     })
