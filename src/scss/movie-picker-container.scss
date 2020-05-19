@@ -21,7 +21,7 @@
 
     .movie-poster {
       width: 290px;
-      margin-top: 90px;
+      margin-top: 105px;
     }
 
     div.movie-poster {
@@ -81,6 +81,10 @@
       
       &:focus {
         outline: none;
+      }
+
+      &:disabled {
+        cursor: default;
       }
     }
   }

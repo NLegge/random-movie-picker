@@ -24,10 +24,12 @@ const MoviePickerContainer = (props) => {
 const [movieInfo, setMovieInfo] = useState();
 const [overlay, setOverlay] = useState(imgIndex);
 const [showVideo, setShowVideo] = useState(true);
+const [isPlayingVideo, setIsPlayingVideo] = useState(false);
 
 const videoRef = useRef(null);
 
 const handlePressMe = () => {
+  setIsPlayingVideo(true);
   const movie = movies[Math.floor(Math.random() * movies.length)];
   setShowVideo(true);
   videoRef.current.play();
@@ -52,6 +54,7 @@ const handlePressMe = () => {
           setShowVideo(false);
           console.log(resultsAudio.volume);
           resultsAudio.play();
+          setIsPlayingVideo(false);
         });
       }
     },150);
@@ -82,7 +85,7 @@ const handlePressMe = () => {
         {overlay === 4 &&  <div className="television-overlay" style={{backgroundImage: `url(${overlays[4]})`}} role="presentation" />}
         {overlay === 5 &&  <div className="television-overlay" style={{backgroundImage: `url(${overlays[5]})`}} role="presentation" />}
         <div className="television-overlay" style={{backgroundImage: `url(${overlays[6]})`}} role="presentation" />
-        <button className="press-me-btn" onClick={handlePressMe}> </button>
+        <button className="press-me-btn" onClick={handlePressMe} disabled={isPlayingVideo}> </button>
       </div>
     </div>
   );
