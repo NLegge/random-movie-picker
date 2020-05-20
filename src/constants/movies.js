@@ -28,7 +28,7 @@ export const movies = [
   'Tales From The Hood',
   'People Under The Stairs',
   'Friday',
-  'Demon Knight',
+  // 'Demon Knight',
   'The Rock',
   // 'Buckaroo Banzai',
   'Timecop',
