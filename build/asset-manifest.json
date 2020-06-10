@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/random-movie-picker/static/css/main.459f7dce.chunk.css",
-    "main.js": "/random-movie-picker/static/js/main.b9ef457a.chunk.js",
-    "main.js.map": "/random-movie-picker/static/js/main.b9ef457a.chunk.js.map",
+    "main.js": "/random-movie-picker/static/js/main.4b7affb7.chunk.js",
+    "main.js.map": "/random-movie-picker/static/js/main.4b7affb7.chunk.js.map",
     "runtime-main.js": "/random-movie-picker/static/js/runtime-main.f755ed74.js",
     "runtime-main.js.map": "/random-movie-picker/static/js/runtime-main.f755ed74.js.map",
     "static/js/2.6a0f500c.chunk.js": "/random-movie-picker/static/js/2.6a0f500c.chunk.js",
     "static/js/2.6a0f500c.chunk.js.map": "/random-movie-picker/static/js/2.6a0f500c.chunk.js.map",
     "index.html": "/random-movie-picker/index.html",
-    "precache-manifest.3ff49627454af81d3e713ec0f1fcb46d.js": "/random-movie-picker/precache-manifest.3ff49627454af81d3e713ec0f1fcb46d.js",
+    "precache-manifest.59130eabaa0229461ba30e8e3dbc9f9e.js": "/random-movie-picker/precache-manifest.59130eabaa0229461ba30e8e3dbc9f9e.js",
     "service-worker.js": "/random-movie-picker/service-worker.js",
     "static/css/main.459f7dce.chunk.css.map": "/random-movie-picker/static/css/main.459f7dce.chunk.css.map",
     "static/js/2.6a0f500c.chunk.js.LICENSE.txt": "/random-movie-picker/static/js/2.6a0f500c.chunk.js.LICENSE.txt",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.f755ed74.js",
     "static/js/2.6a0f500c.chunk.js",
     "static/css/main.459f7dce.chunk.css",
-    "static/js/main.b9ef457a.chunk.js"
+    "static/js/main.4b7affb7.chunk.js"
   ]
 }
