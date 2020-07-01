@@ -24,7 +24,7 @@ export const movies = [
   'The Mouth of Madness',
   'Belko Experiment',
   'Mayhem',
-  'Judgement Night',
+  // 'Judgement Night',
   'Tales From The Hood',
   'People Under The Stairs',
   'Friday',
@@ -35,9 +35,11 @@ export const movies = [
   'The Running Man',
   'Best in Show',
   'Funny Games',
-  'Maximum Overdrive',
+  // 'Maximum Overdrive',
   'Romeo Must Die',
-  'Tommy Boy',
-  'Caddyshack',
-  'Re-Animator'
+  // 'Tommy Boy',
+  // 'Caddyshack',
+  'Re-Animator',
+  'Martyrs',
+  'Dead Presidents'
 ];
