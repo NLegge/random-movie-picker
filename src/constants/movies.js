@@ -96,7 +96,6 @@ export const movies = [
   'Hellraiser',
   'The Cabin in the Woods',
   'Rocky',
-  'Prince of Darkness',
   'Dracula 3000',
   'My Bloody Valentine',
   'Poltergeist',
